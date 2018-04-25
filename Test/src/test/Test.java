@@ -1,11 +1,8 @@
-/*
- * Created by xiaoq on 18-4-23.
- * */
+package test;
 
-package test;/*
- * Created by xiaoq on 18-4-23.
- * ${DESCRIPtion}.
- * */
-
+/**
+ * @author xiaoq
+ * @date 18-4-25
+ */
 public class Test {
 }
