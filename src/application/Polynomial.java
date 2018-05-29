@@ -1,11 +1,12 @@
 package application;
 
-/*
-*
-* */
 import list.*;
 
-// 存储每一项
+/*
+* 存储每一项
+* */
+
+
 class Term implements Comparable<Term> {
     private double coef;
     private int expn;
@@ -33,15 +34,19 @@ class Term implements Comparable<Term> {
 
     @Override
     public int compareTo(Term term) {
-        if (expn == term.expn)
+        if (expn == term.expn) {
             return 0;
-        else if (expn < term.expn)
+        } else if (expn < term.expn) {
             return -1;
-        else
+        } else {
             return 1;
+        }
     }
 }
 
+/**
+ * @author xiaoq
+ */
 public class Polynomial {
     private List<Term> list = new LinkList<>();
 

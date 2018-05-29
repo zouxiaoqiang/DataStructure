@@ -1,8 +1,6 @@
 package test;
 
 /**
- * @author xiaoq
- * @date 18-4-25
- */
+ * @author xiaoq */
 public class Test {
 }
